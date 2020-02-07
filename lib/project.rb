@@ -14,3 +14,4 @@ class Project
     a_backer.backed_projects << self
   end
     
+end
