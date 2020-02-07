@@ -1,7 +1,7 @@
 #projects can have many backers and backers can back many projects
 
 class Backer
-  attr_accessor
+  attr_accessor :backed_projects
   attr_reader :name
   
   def initialize(name)
